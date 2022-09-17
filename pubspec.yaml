@@ -1,0 +1,25 @@
+name: clickable_widget
+description: This Flutter plugin provides some widgets with gesture handlers.
+version: 0.0.1
+homepage: https://github.com/GV-22/clickable_widget
+  
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
