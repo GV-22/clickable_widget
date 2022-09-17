@@ -31,20 +31,20 @@ By default some flutter widgets (Widget Without Gesture) do not trigger gesture 
 
 # Usage
 
-Add Clickable Widget to your `pubspec.yaml` in `dev_dependencies`: section.
+Add Clickable Widget to your `pubspec.yaml` in `dependencies`: section.
 
 ```yaml
 dependencies:
-  clickable_widget: latest_version
+  clickable_widget: 0.0.2
 ```
 
 Update dependencies
 
 ```
-  flutter pub get
+  $ flutter pub get
 ```
 
-Import Clickable Container widget in your code
+Import Clickable **Container** widget in your code
 
 ```dart
   ClickableContainer(
@@ -59,7 +59,7 @@ Import Clickable Container widget in your code
   ),
 ```
 
-Import Clickable Image widget in your code
+Import Clickable **Image** widget in your code
 
 ```dart
    ClickableImage(
@@ -71,7 +71,7 @@ Import Clickable Image widget in your code
   ),
 ```
 
-Import Clickable GridTile widget in your code
+Import Clickable **GridTile** widget in your code
 
 ```dart
   ClickableGridTile(

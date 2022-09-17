@@ -1,6 +1,6 @@
 name: clickable_widget
-description: This Flutter plugin provides some widgets with gesture handlers.
-version: 0.0.1
+description: This Flutter plugin provides widgets with gesture handlers.
+version: 0.0.2
 homepage: https://github.com/GV-22/clickable_widget
   
 
