@@ -1,8 +1,8 @@
 # Clickable Widget
 
-This Flutter plugin provides some widgets with gesture handlers.
+This Flutter plugin provides some flutter widgets having gesture handlers their don't natively have in Flutter.
 
-By default some flutter widgets (Widget Without Gesture) do not trigger gesture events so we wrap them inside the InkWell/GestureDetector widget. To overcome this, I decide to build a package wich give developpers some gesture handlers directly inside WWG.
+By default some flutter widgets (Widget Without Gesture) do not trigger gesture events so we wrap them inside the InkWell/GestureDetector widget. To overcome this, I decide to build a package which give developpers some gesture handlers directly inside WWG.
 
 # Available gesture handlers
 
@@ -28,6 +28,9 @@ By default some flutter widgets (Widget Without Gesture) do not trigger gesture 
 3. **ClickableCard**
 4. **ClickableGridTile**
 5. **ClickableSizedBox**
+6. **ClickableText**
+7. **ClickableRow**
+8. **ClickableColumn**
 
 # Usage
 
@@ -35,7 +38,7 @@ Add Clickable Widget to your `pubspec.yaml` in `dependencies`: section.
 
 ```yaml
 dependencies:
-  clickable_widget: 0.0.2
+  clickable_widget: 0.0.3
 ```
 
 Update dependencies
@@ -81,6 +84,8 @@ Import Clickable **GridTile** widget in your code
     child: const Text("Tap me!"),
   ),
 ```
+
+> For more exmample, refer to the example section.
 
 # Meta
 

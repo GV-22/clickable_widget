@@ -59,7 +59,7 @@ class ClickableCard extends StatelessWidget {
   /// stopped contacting the screen.
   final GestureLongPressEndCallback? onLongPressEnd;
 
-  /// The container child widget
+  /// The card child widget
   final Widget? child;
 
   /// The card's background color.

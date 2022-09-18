@@ -104,8 +104,6 @@ class ClickableContainer extends StatelessWidget {
   /// The clip behavior when [Container.decoration] is not null.
   final Clip clipBehavior;
 
-  // final ClickableWidgetHandlers handlers;
-
   const ClickableContainer({
     super.key,
 

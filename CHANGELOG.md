@@ -1,7 +1,15 @@
-# [0.0.1] - (September 17, 2022)
+# [0.0.3] - (September 18, 2022)
 
-Initial release
+- Add **ClickableText**, **ClickableRow** and **ClickableColumn** widgets
+- Add **example/**
+- Update the License
+- Update the package description
+
 
 # [0.0.2] - (September 17, 2022)
 
 Minor changes
+
+# [0.0.1] - (September 17, 2022)
+
+Initial release
