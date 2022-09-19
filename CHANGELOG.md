@@ -1,10 +1,13 @@
+# [0.0.4] - (September 19, 2022)
+
+- Clean code as pub.dev recommandations
+
 # [0.0.3] - (September 18, 2022)
 
 - Add **ClickableText**, **ClickableRow** and **ClickableColumn** widgets
 - Add **example/**
 - Update the License
 - Update the package description
-
 
 # [0.0.2] - (September 17, 2022)
 

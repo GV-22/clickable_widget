@@ -39,20 +39,16 @@ class ClickableImage extends StatelessWidget {
 
   /// The pointer has contacted the screen with a primary button, which might
   /// be the start of a long-press.
-
   final GestureLongPressDownCallback? onLongPressDown;
 
   /// A pointer that previously triggered [onLongPressDown] will not end up
   /// causing a long-press.
-
   final GestureLongPressCancelCallback? onLongPressCancel;
 
   /// Called when a long press gesture with a primary button has been recognized.
-
   final GestureLongPressCallback? onLongPress;
 
   /// Called when a long press gesture with a primary button has been recognized.
-
   final GestureLongPressStartCallback? onLongPressStart;
 
   /// A pointer has been drag-moved after a long-press with a primary button.
@@ -75,15 +71,12 @@ class ClickableImage extends StatelessWidget {
   final ImageLoadingBuilder? loadingBuilder;
 
   /// A builder function that is called if an error occurs during image loading.
-
   final ImageErrorWidgetBuilder? errorBuilder;
 
   /// If non-null, require the image to have this width.
-
   final double? width;
 
   /// If non-null, require the image to have this height.
-
   final double? height;
 
   /// If non-null, this color is blended with each image pixel using [colorBlendMode].
@@ -205,28 +198,6 @@ class ClickableImage extends StatelessWidget {
     this.onLongPressEnd,
     this.onLongPressMoveUpdate,
   });
-
-  // : assert(
-  //         clickableImageType == ClickableImageType.imageProvider &&
-  //             image != null,
-  //         'Property [image] should not be null for [ClickableImageType.imageProvider]',
-  //       ),
-  //       assert(
-  //         clickableImageType == ClickableImageType.asset && name != null,
-  //         'Property [name] should not be null for [ClickableImageType.asset]',
-  //       ),
-  //       assert(
-  //         clickableImageType == ClickableImageType.file && file != null,
-  //         'Property [file] should not be null for [ClickableImageType.file]',
-  //       ),
-  //       assert(
-  //         clickableImageType == ClickableImageType.memory && bytes != null,
-  //         'Property [bytes] should not be null for [ClickableImageType.memory]',
-  //       ),
-  //       assert(
-  //         clickableImageType == ClickableImageType.network && src != null,
-  //         'Property [src] should not be null for [ClickableImageType.network]',
-  //       );
 
   @override
   Widget build(BuildContext context) {

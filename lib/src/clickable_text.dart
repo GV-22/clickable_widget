@@ -33,20 +33,16 @@ class ClickableText extends StatelessWidget {
 
   /// The pointer has contacted the screen with a primary button, which might
   /// be the start of a long-press.
-
   final GestureLongPressDownCallback? onLongPressDown;
 
   /// A pointer that previously triggered [onLongPressDown] will not end up
   /// causing a long-press.
-
   final GestureLongPressCancelCallback? onLongPressCancel;
 
   /// Called when a long press gesture with a primary button has been recognized.
-
   final GestureLongPressCallback? onLongPress;
 
   /// Called when a long press gesture with a primary button has been recognized.
-
   final GestureLongPressStartCallback? onLongPressStart;
 
   /// A pointer has been drag-moved after a long-press with a primary button.
@@ -122,7 +118,6 @@ class ClickableText extends StatelessWidget {
     this.textWidthBasis,
     this.textHeightBehavior,
     this.selectionColor,
-
     // gesture handler
     this.onTap,
     this.onTapUp,

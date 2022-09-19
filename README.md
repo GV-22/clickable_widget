@@ -96,7 +96,7 @@ Gael Vinou [gaelvinou@gmail.com](mailto:gaelvinou@gmail.com)
 
 [https://github.com/GV-22/clickable_widget](https://github.com/GV-22/clickable_widget)
 
-Distributed under the BSD-3-Clause
+Distributed under the MIT License
 
 # Contributing
 

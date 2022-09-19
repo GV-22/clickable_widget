@@ -32,20 +32,16 @@ class ClickableContainer extends StatelessWidget {
 
   /// The pointer has contacted the screen with a primary button, which might
   /// be the start of a long-press.
-
   final GestureLongPressDownCallback? onLongPressDown;
 
   /// A pointer that previously triggered [onLongPressDown] will not end up
   /// causing a long-press.
-
   final GestureLongPressCancelCallback? onLongPressCancel;
 
   /// Called when a long press gesture with a primary button has been recognized.
-
   final GestureLongPressCallback? onLongPress;
 
   /// Called when a long press gesture with a primary button has been recognized.
-
   final GestureLongPressStartCallback? onLongPressStart;
 
   /// A pointer has been drag-moved after a long-press with a primary button.
@@ -85,11 +81,6 @@ class ClickableContainer extends StatelessWidget {
   final Decoration? foregroundDecoration;
 
   /// Additional constraints to apply to the child.
-  ///
-  /// The constructor `width` and `height` arguments are combined with the
-  /// `constraints` argument to set this property.
-  ///
-  /// The [padding] goes inside the constraints.
   final BoxConstraints? constraints;
 
   /// Empty space to surround the [decoration] and [child].
