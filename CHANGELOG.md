@@ -1,10 +1,10 @@
+# [0.0.5] - (November 11, 2022)
+
+- Update min dart sdk to 2.17.0
+
 # [0.0.4] - (September 19, 2022)
 
 - Clean code as pub.dev recommandations
-
-# [0.0.4] - (November 11, 2022)
-
-- Minor changes
 
 # [0.0.3] - (September 18, 2022)
 
