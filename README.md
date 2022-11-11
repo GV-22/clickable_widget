@@ -38,7 +38,7 @@ Add Clickable Widget to your `pubspec.yaml` in `dependencies`: section.
 
 ```yaml
 dependencies:
-  clickable_widget: 0.0.3
+  clickable_widget: ^latest
 ```
 
 Update dependencies
